@@ -2,7 +2,7 @@
 // frontend/src/api.js
 import axios from "axios";
 
-const API_BASE = "http://localhost:3001";
+const API_BASE = "https://troqsa.onrender.com";
 
 // IMPORTANT: ALWAYS send cookies for session authentication
 axios.defaults.withCredentials = true;
